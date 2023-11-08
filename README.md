@@ -1,5 +1,9 @@
 # inverse σSRN
 
+This is the official code repository for the paper "Generalizable Pose Estimation Using Implicit Scene Representations" presented at ICRA 2023.
+
+Please see our [project website](https://sites.google.com/view/generalizable-pose-estimation) for demo videos and more details about our method! 
+
 ## Usage
 The code for the σSRN model is based on the [original SRN codebase](https://github.com/vsitzmann/scene-representation-networks). The modified code is located in the sigma_srn folder. 
 
@@ -44,3 +48,18 @@ python pose.py --train_data_root [path to directory with dataset] \
 
 For each image in the validation set (from an unseen camera pose), pose.py will optimize the camera pose parameters to move the view to match the input image. Multiple starting poses are used, and the pose with the lowest loss is chosen as the estimated camera pose associated with the input image. 
 For each pose optimization, the rendered views as the camera parameters move towards the target pose are stored in the logging directory. If plotting is enabled (on by default), error plots are stored in the logging directory as well. For each input target image, a pose.txt file indicates the best estimate.
+
+## Citation
+
+If you find this repository useful, please cite our work:
+
+```bibtex
+@misc{saxena2023generalizable,
+      title={Generalizable Pose Estimation Using Implicit Scene Representations}, 
+      author={Vaibhav Saxena and Kamal Rahimi Malekshan and Linh Tran and Yotto Koga},
+      year={2023},
+      eprint={2305.17252},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
