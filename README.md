@@ -2,6 +2,9 @@
 
 This is the official code repository for the paper "Generalizable Pose Estimation Using Implicit Scene Representations" presented at ICRA 2023.
 
+<img src="https://github.com/vaibhavsaxena11/inverse-sigma-srn/assets/10887480/6ded7ac0-0829-484f-94f8-b0e281d0669a" height="200">
+<img src="https://github.com/vaibhavsaxena11/inverse-sigma-srn/assets/10887480/d383d48e-4ff1-4ae6-ae55-ae61b06da008" height="200">
+
 Please see our [project website](https://sites.google.com/view/generalizable-pose-estimation) for demo videos and more details about our method! 
 
 ## Usage
